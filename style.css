@@ -135,3 +135,17 @@ li>i{
     padding: 20px;
     margin-bottom: 30px;
 }
+@media(max-width: 900px){
+    .mission-container{
+        flex-direction: column;
+        
+    }
+    .nav-menu{
+        display: none;
+    }
+    .mission{
+        text-align: center;
+      
+    }
+
+}
